@@ -15,7 +15,7 @@ jobs:
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --verbose --no-progress './**/*.html'
+          args: --verbose --no-progress --exclude 'instagram\.com' './**/*.html'
           fail: true
       - name: 問題があればIssueを自動作成
         if: steps.lychee.outputs.exit_code != 0
