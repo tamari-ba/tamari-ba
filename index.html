@@ -152,6 +152,13 @@
     box-shadow:0 6px 24px -8px rgba(216,154,78,.5);
   }
   .btn:hover{transform:translateY(-2px);filter:brightness(1.05);}
+  .note-latest{margin-top:-4px;}
+  .note-latest a{color:var(--honey);text-decoration:underline;text-underline-offset:3px;}
+  .note-latest a:hover{opacity:.85;}
+  .next-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap;margin-top:24px;}
+  .next-btns .btn{margin-top:0;}
+  .btn-outline{background:transparent;color:var(--honey);border:1.5px solid var(--honey);box-shadow:none;}
+  .btn-outline:hover{background:rgba(216,154,78,.12);}
 
   /* ---- footer ---- */
   footer{text-align:center;padding:48px 24px;color:#7a8473;font-size:.85rem;}
@@ -451,8 +458,12 @@
   <div class="wrap reveal">
     <h2>これから</h2>
     <p>tamari<span class="brand-ba">場</span>は今、準備のまっただ中。場所をさがし、技術をみがき、少しずつ形にしています。</p>
-    <p>オープンまでの歩みを、これから発信していきます。</p>
-    <a class="btn" href="https://www.instagram.com/tamari_ba.life" target="_blank" rel="noopener" aria-label="Instagramでフォロー">Instagramでフォロー</a>
+    <p>オープンまでの歩みを、noteとInstagramで発信していきます。</p>
+    <p class="note-latest">note、はじめました。<br>「<a href="https://note.com/tamari_ba_life/n/n2679124337b3" target="_blank" rel="noopener">なにもしなくていい場所を、なぜつくるのか。</a>」を公開しています。</p>
+    <div class="next-btns">
+      <a class="btn" href="https://www.instagram.com/tamari_ba.life" target="_blank" rel="noopener" aria-label="Instagramでフォロー">Instagramでフォロー</a>
+      <a class="btn btn-outline" href="https://note.com/tamari_ba_life" target="_blank" rel="noopener" aria-label="noteを読む">noteを読む</a>
+    </div>
   </div>
 </section>
 
