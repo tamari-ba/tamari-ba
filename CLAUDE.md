@@ -34,7 +34,7 @@
 - リポジトリ：github.com/tamari-ba/tamari-ba（公開）
 - サイト構成：シングルページHTML（index.htmlにCSS・JSを内包）
 - アクセス解析：GA4導入済み（測定ID: G-DYB3T05TSN）
-- OGP画像：https://tamari-ba.life/ogp.png
+- OGP画像：https://tamari-ba.life/ogp-2.png
 - ローカル作業フォルダ：デスクトップの tamari-ba（.gitignore設定済み）
 - 更新フロー：VS Codeで編集 → GitHub Desktopでコミット → Push origin → 自動反映
 
